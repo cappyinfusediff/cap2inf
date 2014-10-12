@@ -38,9 +38,10 @@
 PRODUCT_COPY_FILES = \
 	device/samsung/captivatemtd/asound.conf:system/etc/asound.conf
 
-# Prebuilt kl keymaps
+# Prebuilt kl and kcm keymaps
 PRODUCT_COPY_FILES += \
-	device/samsung/captivatemtd/aries-keypad.kl:system/usr/keylayout/aries-keypad.kl
+	device/samsung/captivatemtd/aries-keypad.kl:system/usr/keylayout/aries-keypad.kl \
+	device/samsung/captivatemtd/aries-keypad.kcm:system/usr/keychars/aries-keypad.kcm
 
 # Misc other modules
 PRODUCT_PACKAGES += \
