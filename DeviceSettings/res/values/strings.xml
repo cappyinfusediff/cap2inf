@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Advanced Display Settings</string>
+
+    <string name="screen_colors_title">Colors</string>
+    <string name="category_mdnie_title">Screen</string>
+    <string name="mdnie_scenario_title_head">Scenario</string>
+    <string name="mdnie_scenario_summary_head">Set the mDNIe Scenario</string>
+    <string name="mdnie_mode_title_head">Mode</string>
+    <string name="mdnie_mode_summary_head">Set the mDNIe Mode</string>
+    <string name="mdnie_negative_title_head">Negative Mode</string>
+    <string name="mdnie_negative_summary_head">Enable/Disable inverted colors</string>
+    <string name="mdnie_outdoor_title_head">Outdoor Mode</string>
+    <string name="mdnie_outdoor_summary_head">Enable/Disable outdoor mode</string>
+    <string name="panel_gamma_title_head">Screen Gamma</string>
+    <string name="panel_gamma_summary_head">Set screen gamma value</string>
+</resources>

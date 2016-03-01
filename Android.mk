@@ -14,6 +14,12 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),captivatemtd)
+ifeq ($(TARGET_DEVICE),infuse4g)
+
+ifneq ($(TARGET_SIMULATOR),true)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif
+
+endif
+
+
